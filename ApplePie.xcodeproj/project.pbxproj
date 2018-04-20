@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F14EBD8A208A577C003AED0A /* applepie3.png in Resources */ = {isa = PBXBuildFile; fileRef = F14EBD87208A577C003AED0A /* applepie3.png */; };
+		F14EBD8B208A577C003AED0A /* applepie1.png in Resources */ = {isa = PBXBuildFile; fileRef = F14EBD88208A577C003AED0A /* applepie1.png */; };
+		F14EBD8C208A577C003AED0A /* applepie2.png in Resources */ = {isa = PBXBuildFile; fileRef = F14EBD89208A577C003AED0A /* applepie2.png */; };
 		F15B99812088931500334E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B99802088931500334E38 /* AppDelegate.swift */; };
 		F15B99832088931500334E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B99822088931500334E38 /* ViewController.swift */; };
 		F15B99862088931500334E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15B99842088931500334E38 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F14EBD87208A577C003AED0A /* applepie3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applepie3.png; sourceTree = "<group>"; };
+		F14EBD88208A577C003AED0A /* applepie1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applepie1.png; sourceTree = "<group>"; };
+		F14EBD89208A577C003AED0A /* applepie2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applepie2.png; sourceTree = "<group>"; };
 		F15B997D2088931500334E38 /* ApplePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15B99802088931500334E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15B99822088931500334E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,9 +44,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F14EBD86208A5762003AED0A /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				F14EBD88208A577C003AED0A /* applepie1.png */,
+				F14EBD89208A577C003AED0A /* applepie2.png */,
+				F14EBD87208A577C003AED0A /* applepie3.png */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
 		F15B99742088931500334E38 = {
 			isa = PBXGroup;
 			children = (
+				F14EBD86208A5762003AED0A /* doc */,
 				F15B99922088964300334E38 /* README.md */,
 				F15B997F2088931500334E38 /* ApplePie */,
 				F15B997E2088931500334E38 /* Products */,
@@ -129,7 +146,10 @@
 			files = (
 				F15B998B2088931700334E38 /* LaunchScreen.storyboard in Resources */,
 				F15B99882088931700334E38 /* Assets.xcassets in Resources */,
+				F14EBD8C208A577C003AED0A /* applepie2.png in Resources */,
 				F15B99862088931500334E38 /* Main.storyboard in Resources */,
+				F14EBD8B208A577C003AED0A /* applepie1.png in Resources */,
+				F14EBD8A208A577C003AED0A /* applepie3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
